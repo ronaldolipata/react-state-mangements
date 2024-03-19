@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>State Management using Redux</h1>
+      <h1>State Management using Context API</h1>
     </div>
   );
 }
