@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { useAppSelector } from '../app/hooks';
+import { useAppSelector } from '../hooks/useAppSelector';
 import initialProducts from '../data/initialProducts';
 
 const Products = () => {
