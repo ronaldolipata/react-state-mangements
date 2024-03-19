@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useAppSelector } from '../hooks/useAppSelector';
-import initialProducts from '../data/initialProducts';
+import initialProducts from '../data/products.json';
 
 const Products = () => {
   const [products] = useState(initialProducts);
